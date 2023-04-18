@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../pokemons/style/style.css">
+  <link rel="stylesheet" href="../pokemons/vender/bootstrap/css/bootstrap.css">
+</head>
+<body>
+  <div id="loader" class="pokemon"></div>
+<h1 id="header">Pokemons list</h1>
+
+<div class="list-wrapper">
+<ul id="pokemonList">  
+</ul>
+<ul id="pokemon-second-list"></ul>
+</div>
+
+<div class="modal" tabindex="-1" id="modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal-title"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p id="modal-body"></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="overlay"></div>
+<div class="buttons"><button id="previous">Previous</button>
+  <button id="next">Next</button></div>
+
+
+  <script src="../pokemons/js/index.js"></script>
+  <script src="../pokemons/vender/bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>
