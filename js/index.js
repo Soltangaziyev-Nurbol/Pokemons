@@ -54,6 +54,7 @@ async function getPokemonDetails(url) {
   const types = data.types;
   let typeNameList = document.createElement('ul');
 
+  
   types.forEach(type => {
     const typeName = document.createElement('li');
     typeName.textContent = type.type.name;
